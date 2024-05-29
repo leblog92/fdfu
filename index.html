@@ -1,0 +1,256 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>La fresque des fermes usines</title>
+<link rel="icon" type="image/png" href="favicon.png" />
+<style>
+body { font-family: sans-serif; background-color:#abd878;user-select:none;text-align:center; }
+*::-webkit-scrollbar { display: none; }
+* { -ms-overflow-style: none; scrollbar-width: none; }
+
+.scene {
+  display: inline-block;
+  width: 300px;
+  height: 390px;
+  margin: 40px 0;
+  padding:20px;
+  perspective: 600px;
+}
+
+.card {
+  position: relative;
+  border-radius: 50px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  transform-origin: center right;
+  transition: transform 1s;
+}
+
+.card.is-flipped {
+  transform: translateX(-100%) rotateY(-180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 260px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+  background: crimson;
+}
+
+.card__face--back {
+  background: slateblue;
+  transform: rotateY(180deg);
+}
+
+#div1{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  z-index:100000;
+}
+</style>
+</head>
+
+<body>
+<h1>La fresque des fermes usines</h1><br>
+<p>Bienvenue à "La Fresque des Fermes Usines" ! Plongez dans un univers fascinant où vous découvrirez les enjeux cruciaux liés à l'agriculture industrielle et à la protection de l'environnement.<br>Ce jeu éducatif et engageant vous invite à explorer les multiples facettes des fermes usines, leurs impacts sur notre planète, et les actions que nous pouvons entreprendre pour un avenir plus durable.</p>
+
+<div id="div1">Laurie BAHIN-CARDONA <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cc-by_new.svg/20px-Cc-by_new.svg.png"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Cc-nc.svg/20px-Cc-nc.svg.png"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Cc-sa.svg/20px-Cc-sa.svg.png"></div>
+
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front1</div>
+    <div class="card__face card__face--back">back1</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front2</div>
+    <div class="card__face card__face--back">back2</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front3</div>
+    <div class="card__face card__face--back">back3</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front4</div>
+    <div class="card__face card__face--back">back4</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front5</div>
+    <div class="card__face card__face--back">back5</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front6</div>
+    <div class="card__face card__face--back">back6</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front7</div>
+    <div class="card__face card__face--back">back7</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front8</div>
+    <div class="card__face card__face--back">back8</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front9</div>
+    <div class="card__face card__face--back">back9</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front10</div>
+    <div class="card__face card__face--back">back10</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front11</div>
+    <div class="card__face card__face--back">back11</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front12</div>
+    <div class="card__face card__face--back">back12</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front13</div>
+    <div class="card__face card__face--back">back13</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front14</div>
+    <div class="card__face card__face--back">back14</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front15</div>
+    <div class="card__face card__face--back">back15</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front16</div>
+    <div class="card__face card__face--back">back16</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front17</div>
+    <div class="card__face card__face--back">back17</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front18</div>
+    <div class="card__face card__face--back">back18</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front19</div>
+    <div class="card__face card__face--back">back19</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front20</div>
+    <div class="card__face card__face--back">back20</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front21</div>
+    <div class="card__face card__face--back">back21</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front22</div>
+    <div class="card__face card__face--back">back22</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front23</div>
+    <div class="card__face card__face--back">back23</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front24</div>
+    <div class="card__face card__face--back">back24</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front25</div>
+    <div class="card__face card__face--back">back25</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front26</div>
+    <div class="card__face card__face--back">back27</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front28</div>
+    <div class="card__face card__face--back">back28</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front29</div>
+    <div class="card__face card__face--back">back29</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front30</div>
+    <div class="card__face card__face--back">back30</div>
+  </div>
+</div>
+<script>
+var cards = document.querySelectorAll('.card');
+
+[...cards].forEach((card)=>{
+  card.addEventListener( 'click', function() {
+    card.classList.toggle('is-flipped');
+  });
+});
+</script>
+</body>
+</html>
